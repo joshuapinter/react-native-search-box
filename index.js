@@ -341,7 +341,6 @@ class Search extends PureComponent {
           keyboardAppearance={this.props.keyboardAppearance || 'default'}
           autoCapitalize={this.props.autoCapitalize}
           onFocus={this.onFocus}
-          underlineColorAndroid="transparent"
           accessibilityTraits="search"
         />
         <TouchableWithoutFeedback onPress={this.onFocus}>
